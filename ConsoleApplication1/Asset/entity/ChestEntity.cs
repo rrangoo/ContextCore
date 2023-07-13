@@ -18,5 +18,9 @@ namespace CoreContext
         {
             return null;
         }
+
+        public ChestEntity(BaseMaterialAsset materialAsset, BaseTextureAsset baseTextureAsset) : base(materialAsset, baseTextureAsset)
+        {
+        }
     }
 }

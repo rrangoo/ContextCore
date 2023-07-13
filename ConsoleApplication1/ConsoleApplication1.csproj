@@ -51,11 +51,19 @@
         <Compile Include="Asset\sound\LevelSoundAsset.cs" />
         <Compile Include="Asset\texture\BaseTextureAsset.cs" />
         <Compile Include="Asset\texture\LookingGoodDoorTextureAsset.cs" />
+        <Compile Include="Context\BaseAssetContainer.cs" />
+        <Compile Include="Context\containers\EntityAssetContainer.cs" />
+        <Compile Include="Context\containers\MaterialAssetContainer.cs" />
+        <Compile Include="Context\containers\SoundAssetContainer.cs" />
+        <Compile Include="Context\containers\TextureAssetContainer.cs" />
         <Compile Include="Context\Context.cs" />
         <Compile Include="Context\IAssetContainer.cs" />
         <Compile Include="Program.cs" />
-        <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Scene.cs" />
         <Compile Include="util\SoundPlayer.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Properties" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
