@@ -10,6 +10,7 @@ namespace ConsoleApplication1
         public static void Main(string[] args)
         {
             Scene scene = new Scene();
+            scene.Init();
             scene.Load();
             scene.Show();
             Console.ReadKey();

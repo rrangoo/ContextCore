@@ -1,4 +1,5 @@
-﻿using ConsoleApplication1.util;
+﻿using System;
+using ConsoleApplication1.util;
 using CoreContext.material;
 using CoreContext.texture;
 
@@ -34,6 +35,11 @@ namespace CoreContext
 
         public DoorEntity(BaseMaterialAsset materialAsset, BaseTextureAsset baseTextureAsset) : base(materialAsset, baseTextureAsset)
         {
+        }
+
+        public override void Show()
+        {
+            Console.WriteLine("Door Enity");
         }
     }
 }

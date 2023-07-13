@@ -2,6 +2,6 @@
 {
     public interface IAsset
     {
-        
+        void Show();
     }
 }

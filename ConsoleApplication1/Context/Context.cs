@@ -14,15 +14,12 @@ namespace CoreContext
 
         public void Add(string tag, IAsset asset)
         {
-            if (AssetContainers.ContainsKey(tag))
-            {
-                AssetContainers[tag].values.Add(asset);
-            }
-            else
+            if (!AssetContainers.ContainsKey(tag))
             {
                 AssetContainers[tag] = new BaseAssetContainer();
                 AssetContainers[tag].values = new List<IAsset>();
             }
+            AssetContainers[tag].values.Add(asset);
         }
     }
 }

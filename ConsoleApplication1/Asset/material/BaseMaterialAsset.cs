@@ -8,5 +8,7 @@
         {
             this.source = source;
         }
+
+        public abstract void Show();
     }
 }

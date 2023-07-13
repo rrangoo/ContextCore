@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using CoreContext.material;
 using CoreContext.texture;
 
@@ -21,6 +22,11 @@ namespace CoreContext
 
         public ChestEntity(BaseMaterialAsset materialAsset, BaseTextureAsset baseTextureAsset) : base(materialAsset, baseTextureAsset)
         {
+        }
+
+        public override void Show()
+        {
+            Console.WriteLine("Chest Entity");
         }
     }
 }
