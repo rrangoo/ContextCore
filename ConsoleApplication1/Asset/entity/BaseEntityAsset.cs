@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using CoreContext.material;
 using CoreContext.texture;
@@ -14,6 +15,7 @@ namespace CoreContext
         {
             
         }
-        
+
+        public abstract void Show();
     }
 }

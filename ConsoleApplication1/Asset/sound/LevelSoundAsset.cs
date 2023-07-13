@@ -1,4 +1,6 @@
-﻿namespace CoreContext
+﻿using System;
+
+namespace CoreContext
 {
     public class LevelSoundAsset : BaseSoundAsset
     {
@@ -9,6 +11,11 @@
         public void doAnotherSomething()
         {
             
+        }
+
+        public override void Show()
+        { 
+            Console.WriteLine("Level Sound Asset");
         }
     }
 }

@@ -1,0 +1,6 @@
+/Users/pavel/Git/ContextCore/ConsoleApplication1/obj/Debug/ConsoleApplication1.csproj.AssemblyReference.cache
+/Users/pavel/Git/ContextCore/ConsoleApplication1/obj/Debug/ConsoleApplication1.csproj.CoreCompileInputs.cache
+/Users/pavel/Git/ContextCore/ConsoleApplication1/bin/Debug/ConsoleApplication1.exe
+/Users/pavel/Git/ContextCore/ConsoleApplication1/bin/Debug/ConsoleApplication1.pdb
+/Users/pavel/Git/ContextCore/ConsoleApplication1/obj/Debug/ConsoleApplication1.exe
+/Users/pavel/Git/ContextCore/ConsoleApplication1/obj/Debug/ConsoleApplication1.pdb

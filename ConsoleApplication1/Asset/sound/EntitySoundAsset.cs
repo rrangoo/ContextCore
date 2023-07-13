@@ -1,4 +1,6 @@
-﻿namespace CoreContext
+﻿using System;
+
+namespace CoreContext
 {
     public class EntitySoundAsset : BaseSoundAsset
     {
@@ -10,6 +12,11 @@
         public void doSomething()
         {
             
+        }
+
+        public override void Show()
+        {
+            Console.WriteLine("Entity Sound Asset");
         }
     }
 }
