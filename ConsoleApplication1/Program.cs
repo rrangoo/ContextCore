@@ -7,8 +7,7 @@ namespace ConsoleApplication1
     internal class Program
     {
         public static void Main(string[] args)
-        {
-            
+        {            
             // create
             BaseTextureAsset textureAsset = new LookingGoodDoorTextureAsset("");
             BaseMaterialAsset materialAsset = new OakDoorMaterialAsset("");
